@@ -2,14 +2,16 @@
   "name": "suneditor",
   "type": "module",
   "version": "0.0.0",
-  "module": "dist/assets/index-e02f5158.js",
+  "main": "./src/suneditor.js",
+
+  "module": "./dist/suneditor.js",
   "license": "MIT",
   "files": [
     "dist"
   ],
   "exports": {
     ".": {
-      "import": "./dist/assets/index-e02f5158.js"
+      "import": "./dist/suneditor.js"
     }
   },
 

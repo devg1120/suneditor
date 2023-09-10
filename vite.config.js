@@ -7,6 +7,7 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/suneditor.js'),
       name: 'suneditor',
       fileName: 'suneditor',
+      formats: ['es', 'umd'],
     },
   },
 })
