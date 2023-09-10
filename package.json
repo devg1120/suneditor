@@ -10,12 +10,6 @@
     "dist",
     "src"
   ],
-  "exports": {
-    ".": {
-      "import": "./dist/suneditor.js"
-    }
-  },
-
   "scripts": {
     "dev": "vite --host --port 3000",
     "build": "vite build",
